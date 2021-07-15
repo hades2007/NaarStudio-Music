@@ -5,7 +5,7 @@ module.exports = {
         name: "help",
         description: "To show all commands",
         usage: "[command]",
-        aliases: ["هيلب", "commands", ""]
+        aliases: ["هيلب", "commands", "!g"]
     },
 
     run: async function(client, message, args){
